@@ -2,7 +2,7 @@
 ###specie:hg38
 ###seq:mRNA
 ###G4 predict tool:G4BOOST
-#usage: python step4_BG.py -op path_o -n num -s specie -m method
+#usage: python step4_BG.py -op path_o -n num -s specie
 import pandas as pd
 import random
 import argparse
