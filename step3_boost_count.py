@@ -2,7 +2,7 @@
 ###specie:hg38
 ###seq:mRNA
 ###G4 predict tool:G4BOOST
-#usage: python boost.py -s specie -rp path_f -op path_o
+#usage: python step3_boost_count.py -s specie -rp path_f -op path_o
 import pandas as pd
 import random
 import argparse
