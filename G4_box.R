@@ -29,4 +29,4 @@ c <- ggplot(piptide_file, aes(x=Type, y=count))+
     na.rm = T
   )+
   xlab("")
-ggplot2::ggsave('D:/My_data/RNA/CRIF/g4/result/box_result.pdf', c,limitsize = FALSE)
+ggplot2::ggsave('/disk/yt/make_seq/result/box_result.pdf', c,limitsize = FALSE)
